@@ -1,0 +1,30 @@
+#define QPushButton_STYTLE (QString("\
+/*按钮普通态*/\
+QPushButton\
+{\
+    font-family:Microsoft Yahei;\
+    /*字体大小为20点*/\
+    font-size:20pt;\
+    /*字体颜色为白色*/\
+    color:white;\
+    /*背景颜色*/\
+    background-color:rgb(14 , 150 , 254);\
+    /*边框圆角半径为8像素*/\
+    border-radius:8px;\
+}\
+/*按钮悬停态*/\
+QPushButton:hover\
+{\
+    /*背景颜色*/\
+    background-color:rgb(100 , 137 , 255);\
+}\
+/*按钮按下态*/\
+QPushButton:pressed\
+{\
+    /*背景颜色*/\
+    background-color:rgb(14 , 135 , 10);\
+    /*左内边距为3像素，让按下时字向右移动3像素*/\
+    padding-left:3px;\
+    /*上内边距为3像素，让按下时字向下移动3像素*/\
+    padding-top:3px;\
+}"))
